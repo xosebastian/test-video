@@ -1,0 +1,14 @@
+node_modules
+coverage
+storybook-static
+.husky
+test-report.xml
+npm-shrinkwrap.json
+reports/sonar-ut.xml
+eslint-report.json
+npm-shrinkwrap.json
+.vscode/settings.json
+
+release.config.js
+.scannerwork
+package-lock.json
