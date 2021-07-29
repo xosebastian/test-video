@@ -57,7 +57,7 @@ app.get("/", (req, res) => {
 
 
   videoshow(images)
-  .save('./videos/video.mp4')
+  .save('video.mp4')
   .on('start', function (command) {
     console.log('ffmpeg process started:', command)
   })
