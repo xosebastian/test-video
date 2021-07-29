@@ -309,6 +309,6 @@ app.get("/video", function (req, res) {
 
 
 
-app.listen(6060, () => {
-  console.log("\x1b[34m", `Application listening at port ${6060}`, "\x1b[0m");
+app.listen(3000, () => {
+  console.log("\x1b[34m", `Application listening at port ${3000}`, "\x1b[0m");
 });
